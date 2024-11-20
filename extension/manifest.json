@@ -1,0 +1,11 @@
+{
+    "name": "RedditSummarizer",
+    "version": "0.1.0",
+    "description": "extension summarizing reddit posts",
+    "manifest_version": 3,
+    "author": "James",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Summarizer"
+    }
+}
