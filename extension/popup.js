@@ -1,7 +1,7 @@
 document.getElementById('summarizeButton').addEventListener('click', async () => {
     // const title = document.getElementById('wikiTitle').value;
     // const summary = await getWikipediaSummary(title);
-    const summary = "placeholder text" // replace with call to backend endpoint
+    const summary = "placeholder text" // replace with summarized text
     document.getElementById('summary').innerText = summary || 'Unable to summarize.';
   });
   
