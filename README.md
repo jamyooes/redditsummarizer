@@ -10,6 +10,6 @@ We can evaluate our approach via annotation. We will have a set of annotation gu
 
 # User Guide (installing locally)
 
-Navigate to [chrome://extensions/](chrome://extensions/) then click **Load unpacked** in the upper left corner. 
+Navigate to [chrome://extensions/](chrome://extensions/) then enable **Developer mode** in the upper right corner. Then click **Load unpacked** in the upper left corner. 
 Navigate to installed directory and select **extension** folder.
 The extension should pop up with your other install extensions, you can pin it for easy access. From there you should be able to click and activate it. 
