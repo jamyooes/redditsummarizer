@@ -7,8 +7,6 @@ document.getElementById('summarizeButton').addEventListener('click', async () =>
       // Regex for reddit comment thread
       const redditThreadURL = /^https:\/\/www\.reddit\.com\/r\/[^/]+\/comments\/[^/]+\/.+/;
       
-      // console.log(tab.url)
-      
       // If the URL is a reddit comment thread, then send the url to the backend
       if (redditThreadURL.test(tab.url)){
         try {
@@ -18,7 +16,7 @@ document.getElementById('summarizeButton').addEventListener('click', async () =>
             body: JSON.stringify({ url: tab.url }),
           });
           const data = await response.json();
-          console.log(data)
+          document.getElementById('summary').innerText = data['summary']
         }
         catch (error) {
           document.getElementById('summary').innerText = "Error sending URL to backend.";
