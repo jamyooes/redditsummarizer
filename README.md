@@ -13,3 +13,22 @@ We can evaluate our approach via annotation. We will have a set of annotation gu
 Navigate to [chrome://extensions/](chrome://extensions/) then enable **Developer mode** in the upper right corner. Then click **Load unpacked** in the upper left corner. 
 Navigate to installed directory and select **extension** folder.
 The extension should pop up with your other install extensions, you can pin it for easy access. From there you should be able to click and activate it. 
+
+Ensure you follow the backend code as well
+https://github.com/jamyooes/redditSummarizerBackend
+
+If there is still any confusions follow the demo-video guide from the text data submission
+
+# High Level Overview
+The front end will be a simple extension
+![image](https://github.com/user-attachments/assets/d1474825-473f-416c-9f8f-217948ed582d)
+
+Clicking the button on a non-reddit comment thread will return an error:
+![image](https://github.com/user-attachments/assets/71cbf33d-c9cf-4dd6-9fce-69168e6bb70f)
+
+Clicking the button on a reddit comment thread without the api code running will return:
+![image](https://github.com/user-attachments/assets/8286e25d-ae44-4e07-bd25-dbc82c228674)
+
+Clicking the button on a reddit comment thread with the api code running will return a summary:
+![image](https://github.com/user-attachments/assets/cbabff1a-8d06-4c58-bd68-88c09e27283d)
+
