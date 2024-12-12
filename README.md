@@ -17,7 +17,7 @@ The extension should pop up with your other install extensions, you can pin it f
 Ensure you follow the backend code as well
 https://github.com/jamyooes/redditSummarizerBackend
 
-If there is still any confusions follow the demo-video guide from the text data submission
+If there is any confusions follow the demo-video guide from the text data submission
 
 # High Level Overview
 The front end will be a simple extension
@@ -36,3 +36,4 @@ Clicking the button on a reddit comment thread with the api code running will re
 
 ![image](https://github.com/user-attachments/assets/cbabff1a-8d06-4c58-bd68-88c09e27283d)
 
+If there are any issues with the extension after clicking the summarize, please refresh.
